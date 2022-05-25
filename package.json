@@ -4,7 +4,8 @@
   "description": "Simplified distributed exchange",
   "main": "grape.js",
   "scripts": {
-    "grapes": "node grape.js"
+    "grapes": "node grape.js",
+    "server": "node server/server.js"
   },
   "author": "Ignat Kim",
   "license": "MIT",

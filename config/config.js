@@ -18,4 +18,14 @@ module.exports = {
       ],
     },
   ],
+  clientConfig: {
+    announceInterval: 5000,
+    protocol: 'http://'
+  },
+  REQUESTS: {
+    GET_ORDERS: "get_orders",
+    SYNC_ORDERS: "sync_orders",
+    BUY_ORDER: "create_buy_order",
+    SELL_ORDER: "create_sell_order",
+  },
 }
