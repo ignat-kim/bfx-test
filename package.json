@@ -5,6 +5,7 @@
   "main": "grape.js",
   "scripts": {
     "grapes": "node grape.js",
+    "client": "node client/client.js",
     "server": "node server/server.js"
   },
   "author": "Ignat Kim",
